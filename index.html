@@ -1,0 +1,100 @@
+<!DOCTYPE html> <!--Declaración que representa el tipo de documento y ayuda a los navegadores a mostrar correctamente las páginas web-->
+<html lang="en"> <!--Se le conoce como el elemento raíz-->
+<head><!--Actúa como contener de todo lo que sea incluido en la página HTML que no es visible por los visitantes de la página. Incluye palabras claves, metadatos, vínculos, etc. -->
+    <meta charset="UTF-8"><!--idioma-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--idioma-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--escala inicial de una página web-->
+    <title>Página web CH28</title>
+</head>
+<body>
+    <!--<nombre de la etiqueta> El contenido...</cierre de la etiqueta>
+    <p>Hola, soy un párrafo pequeñito</p>
+    <h1>Soy una etiqueta</h1>
+    <h2>Soy una etiqueta</h2>
+    <h3>Soy una etiqueta</h3>
+    <h4>Soy una etiqueta</h4>
+    <h5>Soy una etiqueta</h5>
+    <h6>Soy una etiqueta</h6>-->
+
+    <p>Hola soy Nancy Pérez,<b><sub>comunicologa</sub> especializada en tecnología</b> y<i></i> comenzando a conocer los elementos, las etiquetas y los atributos de <n>HTML</i></n>
+
+    <p>Apasionada del cine de ciencia ficción y el melodrama.<p>
+    
+    <p>Estudié <strong> Ciencias de la comuicación </strong> con especialidad en <em>publicidad y marketing.</em></p>
+
+    <!--Elementos de formato
+    <b></b> formato en letras negritas
+    <i></i> texto en cursiva
+    <mark></mark> texto marcado o resaltado 
+    <sub></sub> subíndice
+    <sup></sup> superíndice
+    <del></del> permite tachar el texto
+    <blockquotes></blockquote> permite crear citas
+    <strong></strong> texto importante
+    <em></em> texto enfatizado
+    
+    
+    -->
+
+    <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
+        <p>
+            Esta etiqueta nos permite citar un texto dentro de nuestro documento HTML, es decir, proporciona un mecanismo para insertar signos de puntuación de citas antes y después de una cita delimitada.
+        </p>
+    </blockquote>
+
+    <!--Etiquetas divisoras y separadoras
+    <hr> para dar una separación entre nuestros párrafos se mostrará una línea horizontal que usaremos como separador
+    <br> sirve para dar una separación entre párrafos 
+    
+    -->
+
+    <hr>
+    <p style= "color: goldenrod;": >Hola soy Nancy Pérez,<a style="color:blue
+    "> especializada en tecnología y comenzando a conocer los elementos, las etiquetas y los atributos de HTML.</a></p>
+    <br>
+    <p align="center">Apasionada del cine de ciencia ficción y el melodrama.</p>
+    <br>
+    <p align="center">Estudié Ciencias de la comuicación con especialidad en publicidad y marketing.</p>
+
+    <!--Los atributos de HTML porporcionan información sobre los elementos de html.
+    Todos los elementos de HTML pueden tener atributos. 
+    Los atributos siempre se especifican en la etiqueta de inicio.
+    Vienen en pares de nombre: nombre="valor"
+    -Atributos globales: se pueden aplicar a todos los elementos del documento, y no depende nde la etiqueta. Entre los atributos globales encontramos: 
+    -class: se usa para especificar un conjunto de elementos. Por ejemplo: <div class= "clase1"></div>
+    -id: Se usa para espeficicar una identificador único para un elemento. Por ejemplo: <div id = "id1"></id>
+    -style:Se usa para especificar un propuiedad de estilos que se aplicará al elemento. Por ejemplo <h1 style="color: red;">HOLA<h1>
+    -event:Se usa para espeficicar un evento que se puede ejercutar en un elemento.
+    -hidden: Se usa para ocultar un elemento. Por ejemplo: hidden="Hidden"    -->
+
+    <h3>Etiquetas de enlace</h3>
+
+    <!--Permiten referencias a otros elementos externos, referenciar a otros archivos.
+    Los enlaces nos permiten la navegación mediante hipervínculos (links) que realizan una coneion y referencian otros archivos o páginas web dentro de la misma aplicación o externa a la misma. 
+    Para los enlaces se utiliza la etiqueta "anchor" (ancla) y se representa con ua <a></a>
+    Los principañes atribibutos de anchor son:
+    -href: Nos permite definir la ubicación d la página a la que nos vamos a anclar, enlazar. Este atributo puede ser una url externa o un archivo dentro de nuestro proyecto.
+    -blank: abre el enlace en uan nueva ventana.
+    -_self: abre el enlace en la misma ventana (valor por default)
+    
+Rutas absolutas: Son aquellas que definen la ubicación completa de un archivo o una página web, por ejemplo: http://google.com.mx
+Rutas relativas: Son las que se defiinene a partir de la posición en la estructura local de la página que lo está refiriendo, es decir, solo indica el orden de dirreción, por ejemplo:/assets/imagen!tamailitodechipil.jpg -->
+
+<a href="http://www.google.com.mx">Da click aqui para visitar la página oficial de google</a>
+
+<br>
+
+<a href="https://www.youtube.com/watch?v=9oojjEu14fY" target="_blank">Mira este video</a>
+
+<br>
+
+<a href="mailto:nancy.perezrys@gmail.com">Presiona aqui para enviarnos un correo</a>
+
+<br>
+
+<a href="/assets/imagen/tamalito.jfif"download>Descarga la imagen del tamailo de chipilin</a>
+
+    <!--Los proyectos son la unión de todos los archivos html, CSS y Scripts. Una buena práctica es organizar nuestro proyecto de la mejor manera, sin embargo solo vamos a organiar la carpeta pero no ocuparemos todas las carpetas, cual es la organización de ua carpeta. -->
+
+</body>
+</html>
