@@ -77,22 +77,177 @@
     -blank: abre el enlace en uan nueva ventana.
     -_self: abre el enlace en la misma ventana (valor por default)
     
-Rutas absolutas: Son aquellas que definen la ubicación completa de un archivo o una página web, por ejemplo: http://google.com.mx
-Rutas relativas: Son las que se defiinene a partir de la posición en la estructura local de la página que lo está refiriendo, es decir, solo indica el orden de dirreción, por ejemplo:/assets/imagen!tamailitodechipil.jpg -->
+    Rutas absolutas: Son aquellas que definen la ubicación completa de un archivo o una página web, por ejemplo: http://google.com.mx
+    Rutas relativas: Son las que se defiinene a partir de la posición en la estructura local de la página que lo está refiriendo, es decir, solo indica el orden de dirreción, por ejemplo:/assets/imagen!tamailitodechipil.jpg -->
 
-<a href="http://www.google.com.mx">Da click aqui para visitar la página oficial de google</a>
+    <a href="http://www.google.com.mx">Da click aqui para visitar la página oficial de google</a>
 
-<br>
+    <br>
 
-<a href="https://www.youtube.com/watch?v=9oojjEu14fY" target="_blank">Mira este video</a>
+    <a href="https://www.youtube.com/watch?v=9oojjEu14fY" target="_blank">Mira este video</a>
 
-<br>
+    <br>
 
-<a href="mailto:nancy.perezrys@gmail.com">Presiona aqui para enviarnos un correo</a>
+    <a href="mailto:nancy.perezrys@gmail.com">Presiona aqui para enviarnos un correo</a>
 
-<br>
+    <br>
 
-<a href="/assets/imagen/tamalito.jfif"download>Descarga la imagen del tamailo de chipilin</a>
+    <a href="/assets/imagen/tamalito.jfif"download>Descarga la imagen del tamailo de chipilin</a>
+
+    <br>
+
+    <h3>Etiqueta  de imagen</h3>
+
+    <!--<img> etiqueta que sirve para almacenar imágenes
+        -src: El atributo source define la ubicación del archivo (local o remoto)
+        -alt: define un texto alterno a la imagen
+        -widh: define el ancho de la imagen
+        -height: define el alto de la imagen
+    -->
+
+    <img src="/assets/imagen/leo.jpg" width="300px" alt="Leo futbolista">
+
+    <img src="https://biodog.es/wp-content/uploads/2013/05/boxer.jpg" width="300rem" alt="boxer">
+
+    <a href="https://www.vogue.es/moda/news/articulos/nueva-barbie-desarrolladora-videojuegos-programadora-informatica/25970" target="_blank"><img src="/assets/imagen/barbie.jfif"  width=200px alt="barbie hacker"></a>
+
+    <h3>Listas</h3>
+    <!--Ordenadas y desordenadas
+    Ordenadas: siguen un orden
+    1.Tamal chipil
+    2.Tamal masa 
+    3.Tamal de maiz nuevo
+    Desordenadas: no siguen un proceso por lo que siguen viñetas
+    -kiara
+    -Kimba
+    -Laika
+
+    <ol> Ordered list o lista ordenada</ol>
+    <ul> Lista desordenada</ul>
+    <li> Lista item o elemento de la lista</li>
+
+    -->
+    
+    <h4>Lista ordenada</h4>
+    <ol>
+        <li>Armando</li>
+        <li>Carlos</li>
+        <li>Mari</li>
+        <li>Zabdiel</li>
+    </ol>
+
+    <hr>
+
+    <h4>Lista desordenada</h4>
+    <ul>
+        <li>Kiara</li>
+        <li>Laika</li>
+        <li>Lucky</li>
+        <li>Morgan</li>
+    </ul>
+
+    <hr>
+
+    <ol>Tacos mexicanos
+        <li>Pastor</li>
+            <lu>
+                <li>Con salsa de las que pica</li>
+                <li>Con salsa de la que no pica</li>
+            </lu>
+        <li>Suadero</li>
+            <ol>
+                <li>Con queso</li>
+                <li>Sin queso</li>
+                <li>Con papas</li>
+            </ol>
+        <li>Carnitas</li>
+        <ol>
+            <li>Surtidas</li>
+                <lu>
+                    <li></li>
+                    <li></li>
+                </lu>
+        </ol>
+        <li>Canasta</li>
+
+    </ol>
+
+    <a href="https://contenido.circulodecredito.com.mx/cdc-libro-landing"><h4>Buró de crédito</h4></a>
+
+    <ol>Reporte de cédito</ol>
+    <li>¿Qué es el reporte de crédito?</li>
+    <li>¿Cómo lo solicito?</li>
+    <li>Consejos para obtner tu reporte fácilmente</li>
+    <ol>Sociedades de Información créditicia</ol>
+    <li>¿Por qué existen los buró de créditos?</li>
+    <li>Historia de los burós en el mundo</li>
+    <li>¿Cómo funcionan los burós?</li>
+    <ol>Bancos</ol>
+    <li>¿Para qué usan el reporte de crédito?</li>
+    <ol>Clientes</ol>
+    <li>Con crédito</li>
+    <li>Con créditos anteriores</li>
+
+    <h4>Lista de definiciones</h4>
+
+    <!--Nos permiten contener definiciones. 
+    <dl></dl>definition list o lista de definición
+    <dt></dt>definition term o término de definición
+    <dd></dd> Nos indica una definición-->
+
+    <dl>
+        <dt>Perrito</dt>
+        <dd>Animal mamifero de 4 patas, bonitos que viven en las casa y algunos viven en la calle :c </dd>
+        <br>
+        <dt>Gatito</dt>
+        <dd>Animal mamifero felino, con garras ocultas, independiente que le gusta visitar otas casas</dd>
+        <br>
+        <dt>Conejito</dt>
+        <dd>Mamifero, pequeño con orejas largas que come vegetales</dd>
+    </dl>
+
+    <hr>
+
+    <h3>Etiqueta de división</h3>
+    <!--Etiqueta de división se utiliza como contenedor de elementos de HTML, que luego se diseña con CSS o se manipulan con JavaScrip.
+        La eqtiqueta<div></div> se diseñam fácilmente utilizando los atributos globales de "class" "id"
+    
+        ¡Se puede poner cualquier tipo e contenido dentro de la etiqueta <div> todo lo que este en div se modifica -->
+        
+    <h4>Elemento div</h4>
+    
+    <div>Hola soy un contenedor con un texto</div>
+
+    <div>
+        <h5>SOY UN H5 dentro de un div</h5>
+        <p>Soy un párrafo viviendo en un div</p>
+    </div>
+
+    <div id="contenedorAbuelo" style="color:bisque; border: 9px solid rebeccapurple; background-color: palevioletred;">Soy abuelito
+        <div class="Container" id="Contendor-padre" style="color:blue; border: 1px solid red; background-color: goldenrod;"><!--Este div funciona como contenedor-->
+            <p>Hola, soy un párrafo en un div</p>
+            <h4>Hola, soy un h4 hermano del párrafo</h4>
+            <div class="container" id="ContenedorHijo" style="color:red; border:3px solid green; background-color: aqua;
+            ">Hola, soy un div dentro de otro </div>
+                <div id="ContenedorNieto"style="color:purple; border: 5px solid grey; background-color: pink;
+                ">Hola de nuevo, soy el div nieto</div>
+        </div>
+    </div>
+
+    <h3>Etiqueta span</h3>
+
+    <!--Es una etiqueta que se utiliza para marcar una parte de un texto o una parte de un documento. 
+    Es parecido a <div> pero <span></span> es un elemento a nivel linea-->
+
+    <p style="color:blueviolet; font-weight: bolder;">Leo es un futbolista nato,<span style="color:brown">hace amigos con cualquier persona aunque es un <span style="color:orangered; font-weight: 100;" > peleonero </span> con perros chiquitos y grandes</span>. No le gusta estar solo siempre se siente mejor si duerme con alguien cuidandolo.</p>
+
+
+
+
+    <br>
+    <br>
+    <br>
+
 
     <!--Los proyectos son la unión de todos los archivos html, CSS y Scripts. Una buena práctica es organizar nuestro proyecto de la mejor manera, sin embargo solo vamos a organiar la carpeta pero no ocuparemos todas las carpetas, cual es la organización de ua carpeta. -->
 
